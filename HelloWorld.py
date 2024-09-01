@@ -35,3 +35,12 @@ print(type(num))
 
 print("-------------")
 print("-------------")
+
+# NONE 
+
+abc =  None
+print(abc)
+print(type(abc))
+
+# None
+# <class 'NoneType'>
