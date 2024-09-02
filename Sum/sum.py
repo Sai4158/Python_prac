@@ -29,5 +29,16 @@ num = num + 10
 print(num) #20
 
 # logical operators 
+# not
 print(not False) #true
 print(not True) #False
+
+# and operator  
+vAL = False
+vAL1 = True
+
+# print true if both are true
+print("The answer is", vAL and vAL1)
+
+# or operator - print true if one of them is true
+print("The answer is", vAL or vAL1)
