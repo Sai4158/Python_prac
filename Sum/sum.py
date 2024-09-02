@@ -1,5 +1,5 @@
-a = 2
-b = 3
+a = 5
+b = 2
 
 # adding two numbers
 sum = a + b
@@ -10,3 +10,15 @@ sum = a * b
 print(sum)
 
 
+# all operators 
+print("# all operators ")
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+
+# reminder
+print(a%b) 
+
+# 5^2 = 25
+print(a**b)
