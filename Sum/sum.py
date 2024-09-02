@@ -22,3 +22,12 @@ print(a%b)
 
 # 5^2 = 25
 print(a**b)
+
+# Assingnment operators 
+num =10
+num = num + 10
+print(num) #20
+
+# logical operators 
+print(not False) #true
+print(not True) #False
