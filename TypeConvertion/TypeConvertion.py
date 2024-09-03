@@ -19,3 +19,7 @@ print(sum1)
 
 # <class 'int'>
 # 10
+
+# ============================
+
+# converting int to a int 
