@@ -11,3 +11,10 @@ print(str.endswith("ing"))
 # Capitalize - like starting of the senctance and it will make a new str and wont effect it 
 print(str.capitalize())
 # I like coding
+
+# -------------------
+# replace 
+example = "I am studying python"
+
+print(example.replace("am", "like"))
+# I like studying pythonA
