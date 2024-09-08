@@ -8,4 +8,6 @@ print(str.endswith("ing"))
 
 # -------------------
 
-
+# Capitalize - like starting of the senctance and it will make a new str and wont effect it 
+print(str.capitalize())
+# I like coding
