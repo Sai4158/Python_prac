@@ -17,4 +17,10 @@ print(str.capitalize())
 example = "I am studying python"
 
 print(example.replace("am", "like"))
-# I like studying pythonA
+# I like studying python
+
+
+# -------------------
+# find -  will return index of char or a word
+print(example.find("a"))
+# 2
