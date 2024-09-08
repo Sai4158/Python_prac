@@ -24,3 +24,8 @@ print(example.replace("am", "like"))
 # find -  will return index of char or a word
 print(example.find("a"))
 # 2
+
+# ----------------------------
+# count - will count the repeated word
+print(example.count("n"))
+# 2  - n is reapted 2 times 
