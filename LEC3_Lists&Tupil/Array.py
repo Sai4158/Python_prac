@@ -16,3 +16,11 @@ print("length is: ", len(marks))
 print(marks[0])
 print(marks[1])
 print(marks[2])
+
+
+# -------------
+
+Student = ["Sai", "Aggam","Pranav"]
+Student[0] = "das"
+print(Student)
+# ['das', 'Aggam', 'Pranav']
