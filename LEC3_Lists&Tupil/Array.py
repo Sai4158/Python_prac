@@ -24,3 +24,9 @@ Student = ["Sai", "Aggam","Pranav"]
 Student[0] = "das"
 print(Student)
 # ['das', 'Aggam', 'Pranav']
+
+
+# Slicing in list 
+stu = Student[0:2]
+print(stu)
+# ['das', 'Aggam']
