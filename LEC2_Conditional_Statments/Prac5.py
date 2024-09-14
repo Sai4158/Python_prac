@@ -10,7 +10,7 @@ else:
 
 # Generate a random number
 import random
-random_num = random.randint(0, 10)
+random_num = random.randint(0, 5)
 
 if num == random_num:
     print("You correctly guessed the number!")
