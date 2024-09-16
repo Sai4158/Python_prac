@@ -28,3 +28,10 @@ print(list)
 list.insert(1,5)
 print(list)
 # [4, 5, 5, 43, 53]
+
+
+# removes the last element 
+list.pop()
+print(list)
+# [4, 5, 5, 43]
+
