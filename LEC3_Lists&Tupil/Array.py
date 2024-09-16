@@ -30,3 +30,6 @@ print(Student)
 stu = Student[0:2]
 print(stu)
 # ['das', 'Aggam']
+
+print(len(stu))
+# 2
