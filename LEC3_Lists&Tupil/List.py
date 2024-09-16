@@ -21,3 +21,10 @@ print(list)
 list.reverse()
 print(list)
 # [4, 5, 43, 53]
+
+
+# insert method -  adds in the array 
+# at index 1 insert 5
+list.insert(1,5)
+print(list)
+# [4, 5, 5, 43, 53]
