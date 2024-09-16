@@ -17,5 +17,7 @@ list.sort(reverse=True)
 print(list)
 # [53, 43, 5, 4]
 
-
-
+# reverse method
+list.reverse()
+print(list)
+# [4, 5, 43, 53]
