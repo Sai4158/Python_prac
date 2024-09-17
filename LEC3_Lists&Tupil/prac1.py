@@ -1,3 +1,5 @@
+# wap to ask the user to enter the names of their 3 fav movies and store them in a list!
+
 # [] is the empty list 
 list = [] 
 # storing the values in the a 
