@@ -24,4 +24,6 @@ print(student.values())
 # dict_values(['rahul kumar', {'py': 74, 'ewf': 34}])
 
 
-# This will return the key and value 
+# This is how we can update 
+student.update({"City" : "delhi"})
+print(student)
