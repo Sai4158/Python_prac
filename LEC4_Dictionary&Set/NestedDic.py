@@ -11,3 +11,17 @@ student = {
 print(student)
 
 # {'name': 'rahul kumar', 'subject': {'py': 74, 'ewf': 34}}
+
+
+# This will print all the key or the heading the dictionary 
+print(student.keys())
+# dict_keys(['name', 'subject'])
+
+
+
+# This will print all the values 
+print(student.values())
+# dict_values(['rahul kumar', {'py': 74, 'ewf': 34}])
+
+
+# This will return the key and value 
