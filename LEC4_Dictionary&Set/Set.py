@@ -1,4 +1,4 @@
-collection = {5,45,6,7456,345}
+collection = {1,1,2,2,2,43,45,534}
 
 print(collection)
 
@@ -9,3 +9,9 @@ print(type(collection))
 # <class 'set'>
 
 
+# Does not print the dupes of the list 
+# {1, 2, 534, 43, 45}
+# <class 'set'>
+
+
+    
