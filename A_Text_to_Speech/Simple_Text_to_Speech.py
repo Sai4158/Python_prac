@@ -1,18 +1,10 @@
-from playsound import playsound
-from gtts import gTTS
-
-audio = "spa.mp3"
-
-# lets play the text now using the playsound
-playsound(audio)
-
-sp = gTTS(text="Welcome to the spa, we offer lot of services", lang="en", slow=False)
-
-
-sp.save(audio)
 
 
 
-# Text is now playing
-print("Text is now playing")
+from text_to_speech import save
 
+text = "Hello, World!"
+language = "en"  # Specify the language (IETF language tag)
+output_file = "hello_world.mp3"  # Specify the output file (only accepts .mp3)
+
+save(text, language, file=output_file)
