@@ -5,10 +5,14 @@ from playsound import playsound
 audio = "speech.mp3"
 
 # choose the lan and pass in
-language = "en"
+# Spanish
+language = "es"
+
+# English
+language = "es"
 
 # Create function for the words 
-sp = gTTS(text="Hello World, I am Sai ", lang=language, slow=False)
+sp = gTTS(text="Hello World, I am Sai ", lang=language, slow=True)
 
 # Save into the audio file 
 sp.save(audio)
