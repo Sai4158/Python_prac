@@ -2,4 +2,7 @@
 
 dictinary = { "table" : ["a picece of furniture","list of facts and figurs"],
     "cat" : "A small animal"
-    }
+    } 
+
+print(dictinary)
+# {'table': ['a picece of furniture', 'list of facts and figurs'], 'cat': 'A small animal'}
