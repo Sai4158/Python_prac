@@ -12,3 +12,8 @@ else:
 
 # Please enter a number: 63
 # Yes this is divisible by 7
+
+
+name = "Sai"
+
+print("Length of name:" + str(len(name))) # 3
