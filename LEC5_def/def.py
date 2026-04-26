@@ -17,3 +17,18 @@ print(type(hi))
 print(type(hi1))
 print(type(hi2))
 print(type(hi3))
+
+def add(x, y):
+    return x + y
+
+print(add(10, 20))
+
+class MyClass:
+    def __init__(self, name):
+        self.name = name
+
+    def greet(self):
+        return f"Hello, {self.name}!" + " Welcome to Python programming."
+
+obj = MyClass("Alice")
+print(obj.greet())
