@@ -32,3 +32,17 @@ class MyClass:
 
 obj = MyClass("Alice")
 print(obj.greet())
+
+# Making class with employee tax class
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def calculate_tax(self):
+        tax_rate = 0.2  # Assuming a flat tax rate of 20%
+        return self.salary * tax_rate
+    
+employee1 = Employee("Bob", 50000)
+print(f"{employee1.name}'s tax: {employee1.calculate_tax()}")
+
