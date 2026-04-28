@@ -52,3 +52,18 @@ word = "Python Programming"
 for i in range(5):
     print(f"{i:<35} {word:>15}")   
 
+
+# here is the diff between the post init vs inti constructor in python
+from dataclasses import dataclass, field   
+@dataclass
+class Employee:
+    name: str
+    salary: float
+    tax: float = field(init=False)
+
+    def __post_init__(self):
+        tax_rate = 0.2  # Assuming a flat tax rate of 20%
+        self.tax = self.salary * tax_rate
+employee2 = Employee("Charlie", 60000)
+print(f"{employee2.name}'s tax: {employee2.tax}")
+
