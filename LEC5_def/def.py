@@ -46,3 +46,9 @@ class Employee:
 employee1 = Employee("Bob", 50000)
 print(f"{employee1.name}'s tax: {employee1.calculate_tax()}")
 
+
+# Print forloop and 35 left alingned spaces
+word = "Python Programming"
+for i in range(5):
+    print(f"{i:<35} {word:>15}")   
+
